@@ -1,0 +1,126 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+body {
+	background-color: #00569f;
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url(../images/ptrbackground.jpg);
+	background-position: center;
+	background-size: contain;
+	background-repeat: repeat-x;
+}
+header {
+	background-color: #020032;
+	background-image: url(../images/sunset.jpg);
+	background-size: contain;
+	background-position: right;
+	background-repeat: no-repeat;
+	padding: 1% 0 1% 2%;
+	color: #FFFFFF;
+	font-family: Georgia, "Times New Roman", serif;
+}
+#wrapper {
+	background-color: #90c8e3;
+	width: 80%;
+	margin: auto;
+	min-width: 600px;
+	max-width: 1080px;
+	margin-top: 2%;
+	overflow: hidden;
+}
+nav ul {
+	font-size: 1.2em;
+}
+nav {
+	float: left;
+	width: 150px;
+	padding: 2%;
+}
+nav li {
+	list-style: none;
+}
+nav a, nav a:link {
+	color: #020032;
+	font-weight: bold;
+	line-height: 20px;
+	font-family: sans-serif;
+}
+nav a:visited {
+	color: #020032;
+	font-weight: bold;
+	line-height: 20px;
+	font-family: sans-serif;
+}
+nav a:hover {
+	color: #FFFFFF;
+}
+#content {
+	background: white;
+	margin-left: 150px;
+	width: auto;
+	color: #424242;
+	font-family: sans-serif;
+}
+h2 {
+	padding-top: 2%;
+	color: 	#44a3c0;
+	padding-bottom: 2%;
+	font-family: Georgia, "Times New Roman", serif;
+}
+#content p {
+	font-size: 16px;
+	padding: 0 2% 2% 2%;
+	padding-left: 25px;
+}
+#content p span {
+	color: #7696b1;
+	font-weight: 760;
+}
+#content li {
+	font-size: 16px;
+	display: flex;
+}
+
+@media only screen and (max-width: 1000px) {
+	#content li {
+		font-size: 16px;
+		padding-left: 50px;
+		display: flex;
+	}
+}
+#content li::before {
+	content: url(../images/marker.gif);
+	padding-right: 10px;
+}
+#content img {
+	margin-right: 15px;
+	width: 400px;
+	float: left;
+}
+#contact {
+	font-size: 90%;
+	padding: 2%;
+	padding-left: 25px;
+}
+#contact span {
+	color: #7696b1;
+	font-size: 16px;
+	font-weight: 760;
+}
+a, a:link, a:visited {
+	text-decoration: none;
+}
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+	background-color: #FFFFFF;
+	margin-left: 150px;
+	padding: 5% 0 2% 1%;
+	font-style: italic;
+	font-size: 80%;
+	padding-left: 21px;
+}
