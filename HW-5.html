@@ -1,0 +1,33 @@
+<!-- username: gui-student -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Creating an Interactive Dynamic Table</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/hw5-styles.css">
+    </head>
+    <body>
+        <div id='content'>
+        <h1>Multiplication Table Generator</h1>
+        <h2>Please enter the table ranges:</h2>
+        <!-- form that asks users to enter four numbers -->
+            <form method="post" action= "">
+                <p> Minimum Column Value: </p>
+                <input type="text" id="xBegin">
+                <p> Maximum Column Value: </p>
+                <input type="text" id="xEnd">
+                <p> Minimum Row Value: </p>
+                <input type="text" id ="yBegin">
+                <p> Maximum Row Value: </p>
+                <input type="text" id ="yEnd">
+                <br>
+                <br>
+                <button type="button" onclick="generateTable()">Generate Table</button>
+            </form>
+        </div>
+        <div id="target"></div>
+        <script type="text/javascript" src="assets/js/hw5-script.js"></script>
+    </body>
+</html>

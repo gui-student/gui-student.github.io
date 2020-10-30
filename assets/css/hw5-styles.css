@@ -1,0 +1,27 @@
+/* username: gui-student */
+
+body {
+    background: #aec6cf;
+}
+
+#content {
+    padding-top: 100px;
+    text-align: center;
+}
+
+table
+{
+  margin: auto;
+  background-color: #ffffff;
+  width: 75%;
+  height: 75%;
+  text-align: center;
+  color: #666;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+td {
+  border: 1pt solid #d3d3d3;
+  margin: auto;
+}
