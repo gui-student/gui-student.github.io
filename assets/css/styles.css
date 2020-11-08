@@ -52,7 +52,7 @@ p {
 }
 
 .navbar-custom a {
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .navbar-custom .navbar-brand, .navbar-custom .navbar-text {
@@ -61,6 +61,7 @@ p {
     width: 200px;
     margin: 5px;
     background-color: #FFAEBC;
+    color: white;
 }
 
 .bold-words {
