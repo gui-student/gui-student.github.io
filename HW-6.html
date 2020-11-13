@@ -1,0 +1,40 @@
+<!-- username: gui-student -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Using the jQuery Validation Plugin with Your Dynamic Table</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/hw6-styles.css">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div id='content'>
+        <h1>Multiplication Table Generator</h1>
+        <h2>Please enter the table ranges:</h2>
+        <!-- form that asks users to enter four numbers -->
+            <form method="post" action= "" name="input">
+                <p> Minimum Column Value: </p>
+                <input type="text" id="xBegin" name="xBegin">
+                <p> Maximum Column Value: </p>
+                <input type="text" id="xEnd" name="xEnd">
+                <p> Minimum Row Value: </p>
+                <input type="text" id ="yBegin" name="yBegin">
+                <p> Maximum Row Value: </p>
+                <input type="text" id ="yEnd" name="yEnd">
+                <br>
+                <br>
+                <button type="submit">Generate Table</button>
+            </form>
+        </div>
+        <div id="target"></div>
+        <!-- jQuery Validation Plugin -->
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/additional-methods.js"></script>
+        <!-- Implementation of jQuery Validation -->
+        <script type="text/javascript" src="assets/js/validate.js"></script>
+        <script type="text/javascript" src="assets/js/hw6-script.js"></script>
+    </body>
+</html>
