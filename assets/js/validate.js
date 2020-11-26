@@ -1,7 +1,8 @@
 // username: gui-student
+// See README.md in the Blackboard .zip folder
+// Sources: https://www.w3schools.com
 
 $(document).ready(function(){
-
     $("form[name='input']").validate({
       rules: {
         xBegin: {
@@ -33,7 +34,6 @@ $(document).ready(function(){
             integer: true,
         },
       },
-
       messages: {
           xBegin: {
               required: "No input given. Please enter an integer value between -50 and 50.",

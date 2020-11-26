@@ -1,0 +1,59 @@
+/* username: gui-student */
+/* See README.md in Blackboard .zip for further contact info*/
+/* Sources: https://www.w3schools.com */
+
+body {
+    background: #aec6cf;
+}
+
+#content {
+    padding-top: 80px;
+    text-align: center;
+}
+
+table
+{
+  margin: auto;
+  background-color: #ffffff;
+  width: 75%;
+  height: 75%;
+  text-align: center;
+  color: #666;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+td {
+  border: 1pt solid #d3d3d3;
+  margin: auto;
+}
+
+.error {
+    background: #ffffff;
+    color: red;
+    margin-left: 6px;
+    padding: 6px;
+    font-size: 14px;
+}
+
+.sliders, #sliderXBegin, #sliderYBegin, #sliderXEnd, #sliderYEnd {
+    margin-left: 33%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 33%;
+}
+
+#stats {
+    background-color: #6cc0ac;
+    color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    width: 100%;
+}
+
+button {
+    margin-bottom: 5px;
+    padding: 10px;
+}
