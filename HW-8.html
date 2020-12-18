@@ -1,0 +1,48 @@
+<!-- username: gui-student
+See README.md in Blackboard .zip for further contact info
+Sources: https://www.w3schools.com -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>SCRABBLE™</title>
+    <meta name="description" content="Implementing a Bit of Scrabble with Drag-and-Drop">
+    <link rel="stylesheet" type="text/css" href="assets/css/hw8-styles.css">
+</head>
+<body>
+    <div class="content">
+        <div class="col">
+            
+            <!-- title and score area -->
+            <h1><a href="HW-8.html">SCRABBLE<span id="tm-symbol">™</span></a></h1>
+            <br>
+            <div id="play-info">
+                <h2 id="getScore">Score: 0</<h2>
+                <h2 id="getTileCount">Tiles: 100</h2>
+            </div>
+
+            <!-- board area -->
+            <div id="getBoard"></div>
+            <br>
+
+            <!-- rack area -->
+            <div id="getRack"></div>
+            <img id="rackImg" src="assets/images/scrabble-tile-holder-406774_640.png"/>
+
+            <!-- buttons -->
+            <button id="submitWord" type="submitWord">Submit Word</button>
+            <button id="newGame" type="newGame">New Game</button>
+        </div>
+    </div>
+
+    <!-- cloud image in the background -->
+    <img id="clouds" src="assets/images/clouds.png"/>
+
+    <!-- jQuery UI -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://code.jquery.com/ui/jquery-ui-git.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="assets/js/hw8-script.js"></script>
+</body>
+</html>

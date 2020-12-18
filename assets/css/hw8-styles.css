@@ -1,0 +1,145 @@
+/* username: gui-student */
+/* See README.md in Blackboard .zip for further contact info*/
+/* Sources: https://www.w3schools.com */
+
+body {
+    background: linear-gradient(180deg, #E0FFFF, #FFFFFF) fixed;
+    overflow-x: hidden;
+}
+
+.content {
+    text-align: center;
+}
+
+.col {
+    width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    background-color: #B3C2F2;
+    color: #FFFFFF;
+    border-radius: 25px;
+    border: 1px solid;
+    padding: 9px 3px 9px 3px;
+    box-shadow: 5px 10px #888888;
+    text-align: center;
+    font-size: 50px;
+    margin: 0 auto;
+    width: 500px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+h1:hover {
+    opacity: 0.5;
+}
+
+h2 {
+    border: 3px solid #B3C2F2;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    background-color: #FFFFFF;
+    color: #B3C2F2;
+}
+
+#play-info {
+    margin: 0 auto;
+    font-size: 14px;
+    height: 100px;
+    width: 200px;
+    padding-top: 5px;
+    border: 5px solid #B3C2F2;
+    font-family: "Courier New", monospace;
+    text-align: left;
+    padding-left: 30px;
+    padding-bottom: 25px;
+}
+
+#tm-symbol {
+    font-size: 15px;
+    vertical-align: super;
+}
+
+#clouds {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    z-index:-1;
+}
+
+#getBoard {
+    padding-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+#getRack {
+    width: 100%;
+    height: 100px;
+    padding-bottom: 20px;
+    margin-bottom: -10px;
+}
+
+#getRack:hover {
+    opacity: 0.7;
+}
+
+#getScore #getTileCount {
+    padding: 10px;
+}
+
+#rackImg {
+    margin-top: -500px;
+}
+
+.scrbletter {
+    width: 71px;
+    height: 71px;
+}
+
+.boardTiles {
+    margin-top: 30px;
+    margin-right: 3px;
+    width: 71px;
+    height: 71px;
+    border: 12px solid #FFFFFF;
+    display: inline-block;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.boardTiles:nth-of-type(2) {
+    background: url("../images/double_letter.png");
+    background-size: 71px 71px;
+}
+
+.boardTiles:nth-of-type(6) {
+    background: url("../images/double_word.png");
+    background-size: 71px 71px;
+}
+
+button {
+    background-color: #B3C2F2;
+    border: none;
+    color: #FFFFFF;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+button:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    opacity: 0.5;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
